@@ -1,0 +1,32 @@
+{
+  "name": "Tasko",
+  "productDir": "../app",
+  "harnessDir": ".",
+  "skillDir": "../../..",
+  "surfaces": {
+    "web": {
+      "url": "http://127.0.0.1:4890/",
+      "start": "node mocks/server.mjs",
+      "width": 1440,
+      "height": 900,
+      "dsf": 2
+    },
+    "desktop": null,
+    "phone": null
+  },
+  "demo": {
+    "story": "Chai Time, a small tea caf\u00e9, gets ready for launch week with four people.",
+    "people": [
+      "Riya (owner)",
+      "Arjun",
+      "Noor",
+      "Kabir"
+    ],
+    "how": "mocks/server.mjs serves the real app's files and answers /api/tasks with fixed tasks."
+  },
+  "brand": {
+    "background": "day",
+    "captionStyle": "short, max 5 words, 2 to 4 per video"
+  },
+  "videos": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "__NAME__",
+  "productDir": "__PRODUCT_DIR__",
+  "harnessDir": "__HARNESS_DIR__",
+  "skillDir": "__SKILL_DIR__",
+  "surfaces": {
+    "web": { "url": "http://127.0.0.1:5173/", "start": "npm run dev", "width": 1440, "height": 900, "dsf": 2 },
+    "desktop": null,
+    "phone": null
+  },
+  "demo": {
+    "story": "One believable example customer used in every video (company, people, data).",
+    "people": ["Riya Sharma (owner)", "Arjun Mehta (teammate)"],
+    "how": "How the app gets demo data: a mock API server, an init script, a seed file, or a demo account."
+  },
+  "brand": {
+    "background": "day",
+    "captionStyle": "short, max 5 words, 2 to 4 per video"
+  },
+  "videos": []
+}

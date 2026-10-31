@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+package.json
+__pycache__/
+.DS_Store
+# a harness made inside the skill folder by mistake
+captures/
+videos/
+out/
+locks/
